@@ -5,7 +5,6 @@
 function calcWidthEl (elW) {return document.querySelector(elW).clientWidth || document.querySelector(elW).offsetWidth;}
 // Calc Height Element
 function calcHeightEl (elH) {return document.querySelector(elH).clientHeight || document.querySelector(elH).offsetHeight;}
-
 // Function Open Close Left Bar
 (function ocBar (){
 	var navLeftBar, btHamburguer;
