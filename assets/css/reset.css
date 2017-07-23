@@ -8,6 +8,9 @@
 	-webkit-tap-highlight-color: transparent;
 	-moz-tap-highlight-color: transparent;
 	tap-highlight-color: transparent;
+	-webkit-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
 }
 body, html{
 	font-size: 100%; /*16px*/

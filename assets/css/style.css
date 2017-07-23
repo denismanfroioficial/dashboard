@@ -4,3 +4,13 @@
 	width: 100vw; height: 100vh;
 	position: relative;
 }
+/*Main content*/
+#content-main{
+	-webkit-flex: 1 100%;
+	-moz-flex: 1 100%;
+	-ms-flex: 1 100%;
+	-o-flex: 1 100%;
+	flex: 1 100%;
+	background-color: rgba(0,0,0,.04);
+	padding: 1em;
+}

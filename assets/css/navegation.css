@@ -1,15 +1,16 @@
 /*Navegation Left Bar*/
 #aside-navegation{
-	max-width: 100px;
-	width: 100vw;
-	/*background-color: tomato;*/
-}
-#nav-left-bar{
-	width: 100vw;
+	padding: 0 1em;
 	background-color: rgba(0,0,0,.8);
 }
+#nav-left-bar{
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+}
 #nav-left-bar a{
-	width: 100vw;
 	color: rgba(255,255,255,.9);
 	text-decoration: none;
 	font-family: sans-serif;
@@ -17,8 +18,10 @@
 }
 #nav-left-bar .icon-opt-nav-bar{
 	font-size: 1.4em;
-	padding: .2em 0;
+	padding: .3em 0;
 }
+#nav-left-bar a:hover{color: tomato;}
 .legend-item{
-	font-size: .8em;
+	font-size: .5em;
+	text-transform: uppercase;
 }
