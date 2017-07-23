@@ -8,5 +8,11 @@
 @import 'style.css';
 /*Navegation*/
 @import 'navegation.css';
+/*Header*/
+@import 'header.css';
+/*Footer*/
+@import 'footer.css';
 /*Media*/
 @import 'media.css';
+/*Stages*/
+@import 'stages.css';

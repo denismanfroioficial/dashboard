@@ -1,0 +1,22 @@
+/*Footer Content Main*/
+#footer-content{
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 1em 0;
+}
+#footer-content figure{
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+#footer-content figcaption{
+	font-size: .8em;
+	padding: 0 .5em;
+}
+#footer-content figure img{width: 20px;}
+#footer-content small{
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	color: rgba(0,0,0,.4);
+}

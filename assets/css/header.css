@@ -1,0 +1,15 @@
+/*Header*/
+#header-content{
+	color: rgba(0,0,0,.8);
+	justify-content: space-between;
+}
+.menu-hamburguer{
+	cursor: pointer;
+	-ms-align-items: center;
+	align-items: center;
+}
+.menu-hamburguer p{
+	font-size: .8em;
+	padding-left: .3em;
+	font-family: sans-serif;
+}

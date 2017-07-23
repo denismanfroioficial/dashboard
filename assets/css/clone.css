@@ -18,3 +18,10 @@
 	-ms-align-items: center;
 	align-items: center;
 }
+.flex-1{
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+}
