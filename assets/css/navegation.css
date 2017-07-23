@@ -1,0 +1,24 @@
+/*Navegation Left Bar*/
+#aside-navegation{
+	max-width: 100px;
+	width: 100vw;
+	/*background-color: tomato;*/
+}
+#nav-left-bar{
+	width: 100vw;
+	background-color: rgba(0,0,0,.8);
+}
+#nav-left-bar a{
+	width: 100vw;
+	color: rgba(255,255,255,.9);
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: .5em 0;
+}
+#nav-left-bar .icon-opt-nav-bar{
+	font-size: 1.4em;
+	padding: .2em 0;
+}
+.legend-item{
+	font-size: .8em;
+}

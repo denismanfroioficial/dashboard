@@ -2,3 +2,11 @@
 @import 'font-awesome.min.css';
 /*Reset*/
 @import 'reset.css';
+/*Clone CSS Class*/
+@import 'clone.css';
+/*Style*/
+@import 'style.css';
+/*Navegation*/
+@import 'navegation.css';
+/*Media*/
+@import 'media.css';
