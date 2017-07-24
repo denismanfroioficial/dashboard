@@ -1,7 +1,10 @@
 /*Navegation Left Bar*/
 #aside-navegation{
 	padding: 0 1em;
-	background-color: rgba(0,0,0,.8);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(226,122,122,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(226,122,122,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(226,122,122,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#e27a7a',GradientType=0 );
 }
 #nav-left-bar{
 	-webkit-flex: 1;
@@ -20,7 +23,7 @@
 	font-size: 1.2em;
 	padding: .3em 0;
 }
-#nav-left-bar a:hover{color: tomato;}
+#nav-left-bar a:hover{color: rgba(226,122,122,1);}
 .legend-item{
 	font-size: .47em;
 	text-transform: uppercase;

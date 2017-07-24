@@ -18,5 +18,5 @@
 	cursor: pointer;
 	padding: 0 0 0 1em;
 }
-.bt-action-user i:hover{color: tomato;}
+.bt-action-user i:hover{color: rgba(226,122,122,1);}
 .bt-action-user i:first-child{padding: 0;}

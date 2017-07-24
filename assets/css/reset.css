@@ -8,6 +8,7 @@
 	-webkit-tap-highlight-color: transparent;
 	-moz-tap-highlight-color: transparent;
 	tap-highlight-color: transparent;
+	font-family: sans-serif;
 }
 body, html{
 	font-size: 100%; /*16px*/

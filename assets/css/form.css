@@ -1,0 +1,36 @@
+/*Form login*/
+.frm-login{
+	-ms-align-items: center;
+	align-items: center;
+	padding: 2em 0 0 0;
+}
+.frm-login input{
+	width: 100vw;
+	border: none;
+	background-color: transparent;
+	padding: .6em;
+	margin-bottom: 1em;
+	font-size: .9em;
+}
+.frm-login input[type="submit"]{
+	width: inherit;
+	background-color: rgba(237,83,0,1);
+	padding: 1em 2em;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 2px;
+	-webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.2);
+	box-shadow: 4px 4px 7px 0 rgba(0,0,0,.2);
+}
+.rec-pass a{
+	width: 100vw;
+	color: rgba(0,0,0,.3);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	padding: 1em 0 0 0;
+	text-decoration: none;
+}
+.rec-pass a:hover{color: rgba(181,0,117,1);}

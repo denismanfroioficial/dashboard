@@ -1,3 +1,11 @@
 @media screen and (max-width: 414px){
+	/*Menu*/
 	.menu-hamburguer p{display: none;}
+	/*Social login*/
+	.box-login .social-login{margin: 0;}
+	.social-login{padding: 1em!important;}
+	.opc-social-login{font-size: 1.4em!important;}
+	.box-login{max-width: inherit;}
+	/*Page login*/
+	#login-page{padding: 0 1em;}
 }
