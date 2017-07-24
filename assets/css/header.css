@@ -13,3 +13,10 @@
 	padding-left: .3em;
 	font-family: sans-serif;
 }
+.bt-action-user{}
+.bt-action-user i{
+	cursor: pointer;
+	padding: 0 0 0 1em;
+}
+.bt-action-user i:hover{color: tomato;}
+.bt-action-user i:first-child{padding: 0;}

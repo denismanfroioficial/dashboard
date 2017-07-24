@@ -17,11 +17,11 @@
 	padding: .5em 0;
 }
 #nav-left-bar .icon-opt-nav-bar{
-	font-size: 1.4em;
+	font-size: 1.2em;
 	padding: .3em 0;
 }
 #nav-left-bar a:hover{color: tomato;}
 .legend-item{
-	font-size: .5em;
+	font-size: .47em;
 	text-transform: uppercase;
 }
