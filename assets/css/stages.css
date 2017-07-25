@@ -4,3 +4,25 @@
 	padding: 0!important;
 	overflow: hidden;
 }
+/*Orders*/
+[order="1"]{
+	-webkit-order: 1;
+	-moz-order: 1;
+	-ms-order: 1;
+	-o-order: 1;
+	order: 1;
+}
+[order="2"]{
+	-webkit-order: 2;
+	-moz-order: 2;
+	-ms-order: 2;
+	-o-order: 2;
+	order: 2;
+}
+[order="3"]{
+	-webkit-order: 3;
+	-moz-order: 3;
+	-ms-order: 3;
+	-o-order: 3;
+	order: 3;
+}

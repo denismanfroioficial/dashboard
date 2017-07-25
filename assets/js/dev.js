@@ -26,3 +26,42 @@ function calcHeightEl (elH) {return document.querySelector(elH).clientHeight || 
 		}
 	}
 }());
+// Buscar CEP
+function preencheCampos(json) {
+    var vem = document.querySelector("#vem");
+    vem.innerHTML = json.localidade;
+    var ts = json;
+    for (var prop in ts) {
+	   	console.log(prop + " : " + ts[prop]);
+	}
+};
+function buscaCep(typeInput, urlRef, req, msgEmpty) {
+	var inputCep, cep, url, xhr;
+    inputCep = document.querySelector(typeInput);
+	
+	if(inputCep != null){ 
+	    inputCep.onblur = function () {
+		    if (inputCep.value != '') {
+			    cep = inputCep.value.replace('-', '');
+			    url = urlRef + cep + req;
+			    xhr = new XMLHttpRequest();
+			    xhr.open('GET', url, true);
+			    xhr.onreadystatechange = function() {
+			        if (xhr.readyState == 4 && xhr.status == 200) {
+			            preencheCampos(JSON.parse(xhr.responseText));
+			           	// console.log(preencheCampos);
+			        }
+			    }
+			    xhr.send();
+			}else{
+				alert(msgEmpty);
+			}
+		};
+	};
+};
+buscaCep(
+	'input[name=cep]', // Algo relacional ao input(id, class, name, data, etc...).
+	'http://viacep.com.br/ws/', // URL
+	'/json', // Type
+	'Favor preencher corretamente o cep. Obrigado!' // Mensagem de campo vazio.
+);

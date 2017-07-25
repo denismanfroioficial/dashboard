@@ -11,8 +11,9 @@
 	font-family: sans-serif;
 }
 body, html{
+	height: 1200px;
 	font-size: 100%; /*16px*/
-	height: 100%;
+	background-color: rgba(0,0,0,.04);
 }
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
